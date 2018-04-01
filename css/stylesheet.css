@@ -1,0 +1,81 @@
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 24px 0px 36px 0px;
+    font-weight: 600;  
+}
+.body-main {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+/* Header section */
+.img-main {
+    width: 424px;
+    height: 152px;
+}
+.smedia-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.smedia-icon {
+    color: rgb(202, 202, 202);
+}
+
+/* Table Section */
+.th-heading {
+    background-color: #006cd6;
+}
+.th-heading-element {
+    height: 29px;
+    background: linear-gradient(#6600e7, #37007c);  
+}
+
+.th-text {
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;  
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;  
+}
+
+/* Schedule Section */
+.program-time {
+    font-family: 'Barlow Semi Condensed', sans-serif;  
+    font-size: 22px;
+    font-weight: 500;
+    vertical-align:middle;
+}
+
+.program-separator {
+    color: #bbb;
+}
+.program-series {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #740000;
+    margin: 0 0 0 0;
+}
+.program-title {
+    color: #555;  
+    font-weight: 500;
+}
+.program-guest {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.5;
+    margin: 0 0 0 0;
+}
+.program-date {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.5;
+    margin: 0 0 0 0;
+}
+.program-code {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.5;
+    margin: 0 0 0 0;
+}
