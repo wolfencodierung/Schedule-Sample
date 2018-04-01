@@ -8,7 +8,7 @@ $(function(){
         tr = $('<tr/>');
         tr.append("<td class=\"program-time\" >" + jparse[i].time + "</td>");
         tr.append("<td>" + "<img src=\"http://via.placeholder.com/230x140\" alt=\"\">" + "</td>")
-        tr.append("<td>" + "<p class=\"program-series\">" + jparse[i].series_title + " <span class=\"program-separator\">|</span> " + "<span class=\"program-title\">" + jparse[i].program_title + "</span>" + "</p>" + "<p class=\"program-guest\">" + "<strong>Guest:</strong> " + jparse[i].guest + "</p>" + "<p class=\"program-date\">" + "<strong>Airing date:</strong> " +  jparse[i].date + "</p>" + "<p class=\"program-code\">" + jparse[i].program_code + "</p>" + "</td>" + "</tr>");
+        tr.append("<td>" + "<p class=\"program-series\">" + jparse[i].program_title + "<p class=\"program-guest\">" + jparse[i].series_title + "</span>" + "</p>" + "<p class=\"program-date\">" + "<strong>Airing date:</strong> " +  jparse[i].date + "</p>" + "</td>" + "</tr>");
         $('table').append(tr);
     }  
 })

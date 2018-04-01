@@ -59,10 +59,12 @@ h1 {
     font-weight: 500;
     color: #740000;
     margin: 0 0 0 0;
+    text-align: left;
 }
 .program-title {
     color: #555;  
     font-weight: 500;
+    text-align: left;
 }
 .program-guest {
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -73,9 +75,5 @@ h1 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     line-height: 1.5;
     margin: 0 0 0 0;
-}
-.program-code {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    line-height: 1.5;
-    margin: 0 0 0 0;
+    text-align: left;
 }
