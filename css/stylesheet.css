@@ -7,6 +7,19 @@ h1 {
     width: 1150px;
     margin: 0 auto;
 }
+h1 > sup {
+    font-size: 14px;
+}
+sup {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 14px;
+    color: #000000 !important;
+}
+.p-note{
+    font-size: 14px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #000000 !important;
+}
 
 /* Header section */
 .img-main {
